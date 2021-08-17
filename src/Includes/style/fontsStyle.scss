@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Monserrat Bold";
+  src: url("../../Includes/Fonts/Montserrat-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Monserrat Regular";
+  src: url("../../Includes/Fonts/Montserrat-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Oswald Regular";
+  src: url("../../Includes/Fonts/Oswald-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Oswald Bold";
+  src: url("../../Includes/Fonts/Oswald-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Oswald light";
+  src: url("../../Includes/Fonts/Oswald-Light.ttf");
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Monserrat Bold";
+  font-weight: bold;
+}
+
+p,
+a {
+  font-family: "Oswald light";
+  font-weight: normal;
+}
+
+button.btn,
+nav a {
+  font-family: "Monserrat Regular";
+  font-weight: normal;
+}
+
+

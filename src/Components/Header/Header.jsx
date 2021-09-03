@@ -1,6 +1,6 @@
 import { Navbar } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
-import Logo from "../../Assets/logo.png";
+import Logo from "../../Assets/Prodigy-logo-01.png";
 import { NavLink } from "react-router-dom";
 import styles from "../Header/Header.module.scss";
 import "../includes/style.scss";
@@ -13,7 +13,7 @@ const Header = () => {
       <Navbar className={styles.navbar_mini}>
         <div
           className="container"
-          style={{ paddingLeft: "200px", margin: "auto" }}
+          style={{ paddingLeft: "305px", margin: "auto" }}
         >
           <div className={`${styles.navbar_nav} ${styles.navbar_left}`}>
             <span>
@@ -43,7 +43,7 @@ const Header = () => {
               src={Logo}
               alt={Logo}
               className="fluid"
-              style={{ width: "120px" }}
+              // style={{ width: "120px" }}
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -58,7 +58,7 @@ const Header = () => {
               <Nav.Link>
                 <NavLink activeClassName="active" to="/Clients">Our Clients</NavLink>
               </Nav.Link>
-              <Nav.Link><NavLink activeClassName="active" to="/JoinUs">Join Us</NavLink></Nav.Link>
+              {/* <Nav.Link><NavLink activeClassName="active" to="/JoinUs">Join Us</NavLink></Nav.Link> */}
               <Nav.Link>
                 <NavLink activeClassName="active" to="/Contact">Contact</NavLink>
               </Nav.Link>

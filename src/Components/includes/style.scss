@@ -4,7 +4,7 @@
   .navbar-brand:before {
     content: "";
     background-color: #f8f9fa;
-    height: 22px;
+    height: 15px;
     width: 6000px;
     right: 0;
     top: 0px;
@@ -24,7 +24,7 @@
   }
 
   .navbar-brand {
-    padding-left: 55px;
+    padding-left: 0px;
     padding-right: 25px;
     margin-left: -55px;
     background: #f8f9fa;
@@ -37,6 +37,12 @@
     border: none;
     border-bottom: 1px solid #e4e4e4;
     transform: translate3d(0px, 0px, 0px);
+  }
+  .carousel-indicators li {
+    width: 13px !important;
+    background-clip: border-box !important;
+    border-top: none !important;
+    border-radius: 20px;
   }
 }
 

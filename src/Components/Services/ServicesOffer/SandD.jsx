@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 
 const SandD = (props) => {
   return (
-    <Card style={{ width: "95%" }}>
+    <Card style={{ width: "95%" }} className="h-100">
       <Card.Img variant="top" src={props.imgUrl} />
       <Card.Body>
         <Card.Title>{props.Title}</Card.Title>

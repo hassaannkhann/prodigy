@@ -3,7 +3,13 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SandD from "../Services/ServicesOffer/SandD";
-import CardImg1 from "../../Assets/pos-select.jpg";
+import ECOMMERCE from "../../Assets/slider-ecom.png";
+import POSECO from "../../Assets/slider-pos-eco.png";
+import HRM from "../../Assets/slider-hrm.png";
+import AutoMobile from "../../Assets/slider-automobile.png";
+import MobileApp from "../../Assets/slider-mobile-app.png";
+import SalesForce from "../../Assets/slider-salesforce2.png";
+import Finance from "../../Assets/slider-finance.png";
 
 export default class ServicesMain extends Component {
   render() {
@@ -46,51 +52,51 @@ export default class ServicesMain extends Component {
         <Slider {...settings}>
           <div>
             <SandD
-              imgUrl={CardImg1}
+              imgUrl={ECOMMERCE}
               Title="E-Comm"
               Text="Shopify | Magento | Woocommerece"
             />
           </div>
           <div>
             <SandD
-              imgUrl={CardImg1}
+              imgUrl={POSECO}
               Title="POS ECO"
-              Text="Unlock your Sales Potential with Cloud Tenants' Next Generation... "
+              Text="Unlocks you sales potential with cloud tenants Next generation"
             />
           </div>
           <div>
             <SandD
-              imgUrl={CardImg1}
+              imgUrl={HRM}
               Title="HCM"
-              Text="Unlock your Sales Potential with Cloud Tenants' Next Generation... "
+              Text="Providing HR Outsourcing and Management Consultancy services"
             />
           </div>
           <div>
             <SandD
-              imgUrl={CardImg1}
+              imgUrl={AutoMobile}
               Title="Automobile"
-              Text="Unlock your Sales Potential with Cloud Tenants' Next Generation... "
+              Text="With transparency, quality and at an Impressive rate that will provide the best Service possible"
             />
           </div>
           <div>
             <SandD
-              imgUrl={CardImg1}
+              imgUrl={MobileApp}
               Title="Mobile App"
-              Text="Unlock your Sales Potential with Cloud Tenants' Next Generation... "
+              Text="Creating high performance, Feature-packed Mobile applications for iOS & Android."
             />
           </div>
           <div>
             <SandD
-              imgUrl={CardImg1}
+              imgUrl={SalesForce}
               Title="Saleforce CommerceCloud"
-              Text="Unlock your Sales Potential with Cloud Tenants' Next Generation... "
+              Text="Providing B2B and B2C ecommerce cloud Solutions to make your platform customer Successful."
             />
           </div>
           <div>
             <SandD
-              imgUrl={CardImg1}
+              imgUrl={Finance}
               Title="Finance"
-              Text="Unlock your Sales Potential with Cloud Tenants' Next Generation... "
+              Text="Managing, investing, exchanging, or holding Money on behalf of clients."
             />
           </div>
         </Slider>

@@ -44,6 +44,9 @@
     border-top: none !important;
     border-radius: 20px;
   }
+  .h-100.card {
+    height: 329px !important;
+  }
 }
 
 .nav-link {
@@ -268,4 +271,27 @@ header {
 
 .nav-link a {
   padding: 10px 15px;
+}
+
+
+/* Inline #6 | http://localhost:3000/#/ */
+
+.card-body {
+  background: #F1F1F1;
+}
+
+.h-100.card {
+  border: none;
+}
+
+.card-img-top {
+  border-radius: 0;
+}
+
+.card-text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: justify;
+  color: #838383;
 }

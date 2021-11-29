@@ -1,5 +1,5 @@
 import "../includes/style.scss";
-import Logo from "../../Assets/Prodigy-logo-01.png";
+import Logo from "../../Assets/LOGOS-footer.png";
 
 const Footer = () => {
     return (
@@ -15,7 +15,7 @@ const Footer = () => {
 							</ul>
                         </div>
                         <div className="col-md-6 copy-text line-height-50 ">
-                            © {(new Date().getFullYear())} Prodigy Technologies (Pvt) Ltd. 
+                            © {(new Date().getFullYear())} bizintel. 
                         </div>
                     </div>
                 </div>

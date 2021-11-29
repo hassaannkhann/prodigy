@@ -14,7 +14,7 @@
   .navbar-brand:after {
     position: absolute;
     content: "";
-    background-color: #000000;
+    background-color: #1B489A;
     height: 90px;
     width: 60px;
     right: -10px;
@@ -119,7 +119,7 @@
 }
 
 .title-base h1::before {
-  background-color: #c6ce3a;
+  background-color: #3C3C3C;
   content: "";
   position: absolute;
   height: 5px;
@@ -292,6 +292,67 @@ header {
   font-weight: 300;
   font-size: 14px;
   line-height: 15px;
-  text-align: justify;
   color: #838383;
+}
+.body-r-space h3 {
+  background-image: url('../../Assets/ribbon.png');
+  text-align: center;
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 75%;
+  position: absolute;
+  left: 15%;
+  color: #fff;
+  padding-top: 1em;
+  padding-bottom: 1.3em;
+  font-size: 36px;
+  line-height: 50px;
+  text-align: center;
+}
+
+
+
+.body-r-space {
+  position: relative;
+}
+
+.ribbon-right .row {
+  background: #F3F3F3;
+  box-shadow: 1px 15px 8px -5px #888;
+  border-radius: 10px;
+}
+
+.ribbon-right .col-lg-8 {
+	padding-top: 7.4em;
+	padding-bottom: 3.5em;
+}
+
+.ribbon-right {
+  margin-top: 4em;
+}
+
+.row-copy img {
+	width: 99px;
+	padding-bottom: 10px;
+}
+
+.jumbotron .mb-0 {
+  height: calc(100vh - 25vh);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#services .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+@media (max-width:768px) {
+  .ribbon-right .col-lg-8 {
+    padding-top: 10.4em;
+  }
 }

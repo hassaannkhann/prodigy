@@ -2,6 +2,7 @@ import Header from "../../Components/Header/Header";
 import Slider from "../../Components/Carousel/Slider";
 import ServicesMain from "../../Components/Services/ServicesMain";
 import Footer from "../../Components/Footer/Footer";
+import OurPartners from "../../Components/OurPartners/OurPartners";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Header />
       <Slider/>
       <ServicesMain />
+      <OurPartners />
       <Footer/>
     </div>
   );

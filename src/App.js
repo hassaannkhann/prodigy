@@ -7,6 +7,7 @@ import HCM from "../src/Pages/Services/HCM";
 import POSeco from "./Pages/Services/POSeco";
 import Clients from "./Pages/OurClients/Clients";
 import AddJobs from "./Pages/Jobs/AddJobs";
+import BizInstitute from "./Pages/BizInstitute/BizInstitute";
 
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
         <Route exact path="/POSeco" component={POSeco}/>
         <Route exact path="/Clients" component={Clients}/>
         <Route exact path="/AddJobs" component={AddJobs}/>
+        <Route exact path="/BizInstitute" component={BizInstitute}/>
       </Switch>
     </HashRouter>
   );

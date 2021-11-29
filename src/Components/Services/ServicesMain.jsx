@@ -55,6 +55,8 @@ export default class ServicesMain extends Component {
               imgUrl={ECOMMERCE}
               Title="E-Comm"
               Text="Shopify | Magento | Woocommerece"
+              status="disabled"
+              link="#"
             />
           </div>
           <div>
@@ -62,6 +64,8 @@ export default class ServicesMain extends Component {
               imgUrl={POSECO}
               Title="POS ECO"
               Text="Unlocks you sales potential with cloud tenants Next generation"
+              status="active"
+              link="/#/POSeco"
             />
           </div>
           <div>
@@ -69,6 +73,8 @@ export default class ServicesMain extends Component {
               imgUrl={HRM}
               Title="HCM"
               Text="Providing HR Outsourcing and Management Consultancy services"
+              status="active"
+              link="/#/HCM"
             />
           </div>
           <div>
@@ -76,6 +82,8 @@ export default class ServicesMain extends Component {
               imgUrl={AutoMobile}
               Title="Automobile"
               Text="With transparency, quality and at an Impressive rate that will provide the best Service possible"
+              status="disabled"
+              link="#"
             />
           </div>
           <div>
@@ -83,6 +91,8 @@ export default class ServicesMain extends Component {
               imgUrl={MobileApp}
               Title="Mobile App"
               Text="Creating high performance, Feature-packed Mobile applications for iOS & Android."
+              status="disabled"
+              link="#"
             />
           </div>
           <div>
@@ -90,6 +100,8 @@ export default class ServicesMain extends Component {
               imgUrl={SalesForce}
               Title="Saleforce CommerceCloud"
               Text="Providing B2B and B2C ecommerce cloud Solutions to make your platform customer Successful."
+              status="disabled"
+              link="#"
             />
           </div>
           <div>
@@ -97,6 +109,8 @@ export default class ServicesMain extends Component {
               imgUrl={Finance}
               Title="Finance"
               Text="Managing, investing, exchanging, or holding Money on behalf of clients."
+              status="disabled"
+              link="#"
             />
           </div>
         </Slider>

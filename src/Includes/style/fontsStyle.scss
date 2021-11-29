@@ -11,20 +11,20 @@
 }
 
 @font-face {
-  font-family: "Oswald Regular";
-  src: url("../../Includes/Fonts/Oswald-Regular.ttf");
+  font-family: "Poppins Regular";
+  src: url("../../Includes/Fonts/Poppins-Regular.ttf");
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "Oswald Bold";
-  src: url("../../Includes/Fonts/Oswald-Bold.ttf");
+  font-family: "Poppins Bold";
+  src: url("../../Includes/Fonts/Poppins-Bold.ttf");
   font-weight: bold;
 }
 
 @font-face {
-  font-family: "Oswald light";
-  src: url("../../Includes/Fonts/Oswald-Light.ttf");
+  font-family: "Poppins light";
+  src: url("../../Includes/Fonts/Poppins-Light.ttf");
   font-weight: bold;
 }
 
@@ -39,7 +39,7 @@ h5 {
 
 p,
 a {
-  font-family: "Oswald light";
+  font-family: "Poppins light";
   font-weight: normal;
 }
 
@@ -49,4 +49,15 @@ nav a {
   font-weight: normal;
 }
 
+.feature-icon {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  justify-content: center;
+}
 
+.feature-icon img {
+  max-width: 300px;
+}

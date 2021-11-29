@@ -31,7 +31,7 @@ const Contact = () => {
             <ul class="fa-ul inline">
               <li>
                 <FontAwesomeIcon icon={faPhone} rotation={90} color="#c6ce3a" />{" "}
-                +92 301 82 334 46
+                +92-213-4322238-39
               </li>
               <li>
                 <FontAwesomeIcon icon={faEnvelope} color="#c6ce3a" />

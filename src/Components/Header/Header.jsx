@@ -1,6 +1,6 @@
 import { Navbar } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
-import Logo from "../../Assets/Prodigy-logo-01.png";
+import Logo from "../../Assets/LOGOS1.png";
 import { NavLink } from "react-router-dom";
 import styles from "../Header/Header.module.scss";
 import "../includes/style.scss";
@@ -18,7 +18,7 @@ const Header = () => {
           <div className={`${styles.navbar_nav} ${styles.navbar_left}`}>
             <span>
               <a href="tel:+923018233446" className={styles.color_white}>
-                <i className="fa fa-phone"></i>+92-301-8233446
+                <i className="fa fa-phone"></i>+92-213-4322238-39
               </a>
             </span>
             |
@@ -61,6 +61,9 @@ const Header = () => {
               {/* <Nav.Link><NavLink activeClassName="active" to="/JoinUs">Join Us</NavLink></Nav.Link> */}
               <Nav.Link>
                 <NavLink activeClassName="active" to="/Contact">Contact</NavLink>
+              </Nav.Link>
+              <Nav.Link>
+                <NavLink activeClassName="active" to="/BizInstitute">BizInstitute</NavLink>
               </Nav.Link>
               {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>

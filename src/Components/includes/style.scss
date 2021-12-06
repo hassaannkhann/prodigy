@@ -44,9 +44,6 @@
     border-top: none !important;
     border-radius: 20px;
   }
-  .h-100.card {
-    height: 329px !important;
-  }
 }
 
 .nav-link {
@@ -288,11 +285,16 @@ header {
   border-radius: 0;
 }
 
+.card-title {
+  white-space: nowrap;
+}
+
 .card-text {
   font-weight: 300;
   font-size: 14px;
   line-height: 15px;
   color: #838383;
+  min-height: 66px;
 }
 .body-r-space h3 {
   background-image: url('../../Assets/ribbon.png');

@@ -40,10 +40,6 @@ const options = [
     url: "/#/Clients",
   },
   {
-    firstname: "Join Us",
-    url: "/#/JoinUs",
-  },
-  {
     firstname: "Contact Us",
     url: "/#/Contact",
   },

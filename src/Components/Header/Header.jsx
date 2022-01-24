@@ -38,7 +38,7 @@ const Header = () => {
       </Navbar>
       <Navbar bg="light" expand="lg">
         <div className="container">
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="#">
             <img
               src={Logo}
               alt={Logo}

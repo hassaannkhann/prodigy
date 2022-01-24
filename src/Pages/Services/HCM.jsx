@@ -103,7 +103,7 @@ const HCM = () => {
           className="slider"
           style={{ background: "url(" + BannerImg + ")" }}
         >
-          <ServicesSubHeader ServiceImg={BannerHeading} />
+          {/* <ServicesSubHeader ServiceImg={BannerHeading} /> */}
         </div>
         <Container>
           <Row>

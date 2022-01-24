@@ -12,7 +12,7 @@ export class OurPartners extends Component {
         <Row>
           <div className="feature col">
             <div class="feature-icon">
-              <img src={Magento} alt="magento" style={{width: '178px'}}/>
+              <img src={Magento} alt="magento" style={{width: '114px'}}/>
             </div>
             <h4 className="text-center mt-4">Magento</h4>
           </div>
@@ -24,7 +24,7 @@ export class OurPartners extends Component {
           </div>
           <div className="feature col mb-2">
             <div class="feature-icon">
-            <img src={MSDynamicsNew} alt="magento" style={{width: '211px'}}/>
+            <img src={MSDynamicsNew} alt="magento" style={{width: '135px'}}/>
             </div>
             <h4 className="text-center mt-4">Microsoft Dynamics</h4>
           </div>

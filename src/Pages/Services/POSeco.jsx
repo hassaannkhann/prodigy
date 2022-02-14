@@ -1,7 +1,6 @@
 import React from "react";
 import ServicesSubHeader from "../../Components/ServicesPageComponents/ServicesSubHeader";
 import BannerImg from "../../Assets/pos-eco-banner.jpg";
-import BannerHeading from "../../Assets/pos-select-heading.png";
 import "../../Components/includes/style.scss";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
@@ -112,7 +111,7 @@ const POSeco = () => {
           className="slider"
           style={{ background: "url(" + BannerImg + ")" }}
         >
-          <ServicesSubHeader ServiceImg={BannerHeading} />
+          <ServicesSubHeader  />
         </div>
         <Container>
           <Row>
